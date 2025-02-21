@@ -1,0 +1,7 @@
+{
+  "tasks": {
+    "test": "kurtosis-test .",
+    "build": "mise install",
+    "launch": "kurtosis run github.com/ethpandaops/optimism-package --args-file https://raw.githubusercontent.com/ethpandaops/optimism-package/main/network_params.yaml"
+  }
+}

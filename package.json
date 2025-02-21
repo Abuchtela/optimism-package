@@ -1,0 +1,16 @@
+{
+  "name": "optimism-package",
+  "version": "1.3.0",
+  "description": "The default package for Optimism.",
+  "main": "index.js",
+  "scripts": {
+    "test": "kurtosis-test .",
+    "build": "mise install",
+    "launch": "kurtosis run github.com/ethpandaops/optimism-package --args-file https://raw.githubusercontent.com/ethpandaops/optimism-package/main/network_params.yaml"
+  },
+  "author": "ethpandaops",
+  "license": "MIT",
+  "dependencies": {
+    "kurtosis-cli": "^1.4.4"
+  }
+}
