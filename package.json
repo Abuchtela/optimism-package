@@ -10,7 +10,5 @@
   },
   "author": "ethpandaops",
   "license": "MIT",
-  "dependencies": {
-    "kurtosis-cli": "^1.4.4"
-  }
+  "dependencies": {}
 }
